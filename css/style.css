@@ -12,6 +12,7 @@ html {
 }
 
 .container {
+    /* position: relative; */
     width: 100%;
 	height: 100vh;
     position: relative;
@@ -55,4 +56,28 @@ html {
 
 .didascalia.green {
     color: #068300;
+}
+
+/* LINKS-TOP */
+.big_container {
+    width: 100%;
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+    top: 1.5em;
+    right: 1em;
+    z-index: 2;
+}
+
+.fixed span {
+    display: inline-block;
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3em;
+    font-size: .7em;
 }
